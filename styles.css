@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 22px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+/*header{
+    text-align: center;
+    background-color: #d3d1d1;
+    padding: 20px 0;
+    font-size: 13px;
+    color: black;
+}*/
+
+footer {
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+    background-color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+main h2{
+    text-align: center;
+}
+
+main p{
+    text-align: center;
+}
+
+button {
+    display: block;
+    width: calc(100% - 20px); /* Largura do botão com padding */
+    padding: 15px;
+    margin: 15px auto; /* Margem para espaçamento */
+    background-color: #4CAF50; /* Cor do botão */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Tamanho da fonte */
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #45a049; /* Cor do botão ao passar o mouse */
+}
+
+a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: white; /* Deixa a letra branca */
+    display: block; /* Faz com que o link ocupe o espaço inteiro do botão */
+    width: 100%; /* Faz o link ocupar toda a largura do botão */
+    height: 100%; /* Faz o link ocupar toda a altura do botão */
+    text-align: center; /* Centraliza o texto no link */
+    padding: 10px; /* Adiciona um pouco de espaçamento ao texto */
+    font-weight: bold;
+}
+
+a:hover {
+    color: white; /* Garante que a cor permaneça branca ao passar o mouse */
+    font-weight: bold;
+}
+
+
+.oculto {
+    display: none;
+}
+
+.voltar {
+    background-color: #0d3a0f; /* Cor do botão voltar */
+    margin-top: 20px; /* Espaço acima do botão voltar */
+}
+
+.voltar:hover {
+    background-color: #0d3a0f; /* Cor do botão voltar ao passar o mouse */
+}
+
+@media (max-width: 600px) {
+    button {
+        padding: 12px; /* Reduzir padding em dispositivos móveis */
+        font-size: 14px; /* Tamanho da fonte reduzido */
+    }
+
+    main {
+        padding: 10px; /* Reduzir padding principal em dispositivos móveis */
+    }
+}

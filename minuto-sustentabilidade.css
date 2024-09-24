@@ -1,0 +1,98 @@
+/* Código anterior permanece igual */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+.frases-imagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.bloco {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.bloco img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.bloco p {
+    font-size: 18px;
+    color: black;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Botão voltar */
+.botao-voltar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-voltar {
+    display: inline-block;
+    background-color: #0d3a0f;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.btn-voltar:hover {
+    background-color: #0d3a0f;
+}
+
+@media (max-width: 600px) {
+    .bloco img {
+        max-width: 100%;
+    }
+
+    .bloco p {
+        font-size: 16px;
+    }
+}
+
