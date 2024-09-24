@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manejo de Agrotóxicos</title>
+    <link rel="stylesheet" href="pagina02.css">
+    <script>
+        function exibirMais(id) {
+            var texto = document.getElementById(id + '-texto');
+            texto.classList.toggle('oculto');
+        }
+    </script>
+</head>
+<body>
+
+    <header>
+        <h1>Manejo de Agrotóxicos</h1>
+    </header>
+
+    <main>
+        <section id="armazenamento">
+            <h2>Armazenamento Adequado</h2>
+            <p>O armazenamento adequado dos agrotóxicos é essencial para garantir a segurança do agricultor, da comunidade e do meio ambiente. Siga estas orientações:</p>
+
+            <button onclick="exibirMais('local')">Local de Armazenamento</button>
+            <div id="local-texto" class="oculto">
+                <p>Armazene os agrotóxicos em locais exclusivos, longe de áreas residenciais, fontes de água e alimentos. O depósito deve ser ventilado e sinalizado.</p>
+                <a href="https://www.youtube.com/watch?v=VIDEO_ID_LOCAL" target="_blank">Assistir ao vídeo</a>
+            </div>
+
+            <button onclick="exibirMais('organizacao')">Organização</button>
+            <div id="organizacao-texto" class="oculto">
+                <p>Mantenha os produtos bem organizados e classificados por tipo. Produtos com maior risco devem ser armazenados separadamente e sempre em suas embalagens originais.</p>
+                <a href="https://www.youtube.com/watch?v=VIDEO_ID_ORGANIZACAO" target="_blank">Assistir ao vídeo</a>
+            </div>
+
+            <button onclick="exibirMais('inspecao')">Inspeção e Controle</button>
+            <div id="inspecao-texto" class="oculto">
+                <p>Verifique regularmente as condições do estoque. Produtos vencidos ou em más condições devem ser descartados conforme orientação dos órgãos ambientais.</p>
+                <a href="https://www.youtube.com/watch?v=VIDEO_ID_INSPECAO" target="_blank">Assistir ao vídeo</a>
+            </div>
+
+            <button onclick="exibirMais('documentacao')">Manutenção da Documentação</button>
+            <div id="documentacao-texto" class="oculto">
+                <p>Mantenha registros atualizados dos agrotóxicos, como data de compra, validade e quantidade, para facilitar o controle e uso responsável dos produtos.</p>
+                <a href="https://www.youtube.com/watch?v=VIDEO_ID_DOCUMENTACAO" target="_blank">Assistir ao vídeo</a>
+            </div>
+
+            <button onclick="exibirMais('descarte')">Descarte Adequado</button>
+            <div id="descarte-texto" class="oculto">
+                <p>Após o uso, as embalagens lavadas devem ser entregues em pontos de coleta autorizados, como os oferecidos pelo programa InPEV. Nunca descarte no lixo comum.</p>
+                <a href="https://www.youtube.com/watch?v=VIDEO_ID_DESCARTE" target="_blank">Assistir ao vídeo</a>
+            </div>
+
+            <button class="voltar" onclick="window.location.href='index.html'">Voltar à Página Inicial</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Gestão de Embalagens Agrícolas</p>
+    </footer>
+
+</body>
+</html>
